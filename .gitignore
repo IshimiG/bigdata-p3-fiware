@@ -1,8 +1,9 @@
-# Datos y credenciales
-data/raw/
-data/*.csv
-data/*.json
+# Datos y credenciales (NO subir nunca)
 .env
+.env.*
+!.env.example
+data/
+docker-volumes/
 *.pem
 
 # Entornos Python
@@ -12,9 +13,6 @@ __pycache__/
 
 # Notebooks
 .ipynb_checkpoints/
-
-# Docker
-docker-volumes/
 
 # MkDocs
 site/
